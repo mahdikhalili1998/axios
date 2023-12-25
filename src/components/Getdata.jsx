@@ -9,7 +9,7 @@ function Getdata() {
       .then((res) => setGet(res.data));
   }, []);
   const getHandler = () => {
-    console.log(get);
+  
   };
   return (
     <div>
