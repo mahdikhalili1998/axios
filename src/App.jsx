@@ -1,5 +1,6 @@
 import Delete from "./components/Delete";
 import Getdata from "./components/Getdata";
+import Patch from "./components/Patch";
 import Post from "./components/Post";
 import Put from "./components/Put";
 
@@ -10,6 +11,7 @@ function App() {
       <Post />
       <Delete />
       <Put />
+      <Patch />
     </>
   );
 }
