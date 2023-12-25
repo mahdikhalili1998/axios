@@ -11,7 +11,7 @@ function Post() {
       })
       .then((res) => setData(res.data));
   };
-  console.log(data);
+
   return (
     <div>
       <input
@@ -20,7 +20,7 @@ function Post() {
         placeholder="text"
         onChange={(e) => setText(e.target.value)}
       />
-      <button onClick={textHandler}>write id</button>
+      <button onClick={textHandler}>write text for post</button>
     </div>
   );
 }
